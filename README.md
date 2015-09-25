@@ -1,3 +1,3 @@
 # gofe4_helpdesk
 
-http://
+http://gofe4team.github.io/gofe4_helpdesk
