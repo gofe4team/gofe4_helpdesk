@@ -399,8 +399,7 @@
 		font-size: 12px;
 	}
 
-	.ask,
-	.ask_2
+	.ask
 	{
 		line-height: 1.2;
 		width: 80%;
@@ -413,6 +412,11 @@
 		padding-left: 5px;
 	}
 
+	.ask_2
+	{
+		display: none;
+	}
+
 	.ask
 	{
 		background-color: #009cad;
@@ -421,14 +425,20 @@
 	.ask_2
 	{
 		background-color: #a63d42;
+		display: none;
 	}
 
 
-	.ask img,
-	.ask_2 img
+
+	.ask img
 	{
 		margin-top: 2px;
 		width: 15px;
+	}
+
+	.ask_2 img
+	{
+		display: none;
 	}
 
 
@@ -786,3 +796,4 @@
 	}
 
 }
+
