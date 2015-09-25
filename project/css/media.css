@@ -399,9 +399,30 @@
 		font-size: 12px;
 	}
 
-	.ask,
-	.ask_2 {
-		display: none;
+	.ask
+/*	.ask_2 */{
+		line-height: 1.2;
+		width: 80%;
+		font-size: 14px;
+		position: fixed;
+		bottom: 45px;
+		right: 15%;
+		background-color: #a63d42;
+		z-index: 100;
+		color: white;
+		padding-left: 5px;
+	}
+
+	.ask
+	{
+		background-color: #009cad;
+	}
+
+	.ask img
+/*	.ask_2 img*/
+	{
+		margin-top: 2px;
+		width: 15px;
 	}
 
 	.info_img
