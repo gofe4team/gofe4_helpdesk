@@ -350,9 +350,8 @@
 
 	.textblock_text
 	{
-		margin-top: 10%;
-		min-height: 25%;
-		max-height: 25%;
+		margin-top: 5%;
+		min-height: auto;
 		text-align: left;
 		font-size: 14px;
 	}
@@ -589,7 +588,7 @@
 
 	.textblock
 	{
-		width: 60%;
+		width: 70%;
 		margin-left: auto;
 		margin-right: auto;
 		display: block;
@@ -638,11 +637,10 @@
 
 	.textblock_text
 	{
-		margin-top: 10%;
-		min-height: 25%;
-		max-height: 25%;
+		margin-top: -10%;
+		min-height: auto;
 		text-align: left;
-		font-size: 14px;
+		font-size: 11px;
 	}
 
 	footer
@@ -702,7 +700,7 @@
 		z-index: 1;
 	}
 
-		.blue_icons
+	.blue_icons
 	{
 		position: absolute;
 		top: 25%;
@@ -733,11 +731,20 @@
 
 	.textblock_text
 	{
-		margin-top: 10%;
+		margin-top: 2%;
 		min-height: 25%;
 		max-height: 25%;
 		text-align: left;
 		font-size: 11px;
+	}
+
+
+	.textblock
+	{
+		width: 65%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 	}
 
 		.textblock_center h3
