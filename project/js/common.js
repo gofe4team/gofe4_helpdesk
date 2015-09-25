@@ -336,7 +336,7 @@ $(window).load(function() {
 	$(document).ready(function(){
 		$(window).scroll(function(event){
 			var wrap = $("#wrap");
-			if ($(this).scrollTop() > 1500){
+			if ($(this).scrollTop() > 1700){
 				wrap.addClass("fix-search");
 			}
 			else
@@ -353,7 +353,7 @@ $(window).load(function() {
 	$(document).ready(function(){
 		$(window).scroll(function(event){
 			var wrap = $("#blue_wrap");
-			if ($(this).scrollTop() > 1500){
+			if ($(this).scrollTop() > 1700){
 				wrap.addClass("blue-fix-search");
 			}
 			else
@@ -369,7 +369,7 @@ $(window).load(function() {
 	$(document).ready(function(){
 		$(window).scroll(function(event){
 			var wrap = $("#blue_wrap");
-			if ($(this).scrollTop() > 3600){
+			if ($(this).scrollTop() > 3000){
 				wrap.addClass("blue-fix-search-none");
 			}
 			else
@@ -387,7 +387,7 @@ $(window).load(function() {
 	$(document).ready(function(){
 		$(window).scroll(function(event){
 			var wrap = $("#pink_wrap");
-			if ($(this).scrollTop() > 3500){
+			if ($(this).scrollTop() > 3200){
 				wrap.addClass("pink-fix-search");
 			}
 			else
