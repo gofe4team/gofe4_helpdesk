@@ -183,7 +183,7 @@
 	.leptop-img
 	{
 		position: fixed;
-		width: 8%;
+		width: 50px;
 		top: 30%;
 		left: 4%;
 		z-index: 1;
@@ -199,7 +199,7 @@
 	.care-img
 	{
 		position: fixed;
-		width: 8%;
+		width: 50px;
 		top: 50%;
 		left: 4%;
 		z-index: 1;
@@ -208,7 +208,7 @@
 	.pink-care-img
 	{
 		position: fixed;
-		width: 8%;
+		width: 50px;
 		top: 70%;
 		left: 4%;
 		z-index: 1;
@@ -509,7 +509,7 @@
 	.leptop-img
 	{
 		position: fixed;
-		width: 9%;
+		width: 45px;
 		top: 25%;
 		left: 4%;
 		z-index: 100;
@@ -518,7 +518,7 @@
 	.care-img
 	{
 		position: fixed;
-		width: 8%;
+		width: 45px;
 		top: 45%;
 		left: 4%;
 	}
@@ -527,7 +527,7 @@
 	.pink-care-img
 	{
 		position: fixed;
-		width: 8%;
+		width: 45px;
 		top: 65%;
 		left: 4%;
 	}
@@ -677,7 +677,7 @@
 	.leptop-img
 	{
 		position: fixed;
-		width: 9%;
+		width: 40px;
 		top: 25%;
 		left: 4%;
 	}
@@ -685,8 +685,16 @@
 	.care-img
 	{
 		position: fixed;
-		width: 8%;
+		width: 40px;
 		top: 43%;
+		left: 4%;
+	}
+
+		.pink-care-img
+	{
+		position: fixed;
+		width: 40px;
+		top: 60%;
 		left: 4%;
 	}
 
@@ -721,13 +729,7 @@
 	}
 
 
-	.pink-care-img
-	{
-		position: fixed;
-		width: 8%;
-		top: 60%;
-		left: 4%;
-	}
+
 
 	.textblock_text
 	{
